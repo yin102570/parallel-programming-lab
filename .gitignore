@@ -1,0 +1,32 @@
+# Build outputs
+*.o
+*.obj
+*.exe
+*.out
+ann_gpu
+ann_gpu_backup
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (don't commit large datasets)
+data/
+*.fbin
+*.fbin.larkcache
+*.gt.bin
+*.tar
+
+# Logs
+logs_*/
+*.log
+
+# Temp
+__pack_temp/
